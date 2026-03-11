@@ -112,7 +112,7 @@ export function HeroSection() {
                                         ))}
                                     </div>
                                     <p className="text-muted-foreground leading-relaxed text-lg mt-2 lg:mt-6">
-                                        Whether you&apos;re visiting for a routine check-up or a more advanced procedure, we ensure your oral health is in the best hands, helping you achieve a confident, healthy smile.
+                                        Whether you&apos;re visiting for a routine check-up achieve a confident, healthy smile.
                                     </p>
                                 </div>
                             </div>

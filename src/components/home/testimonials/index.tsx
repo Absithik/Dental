@@ -32,16 +32,16 @@ export function Testimonials() {
                         // Determine floating avatar position based on index
                         let avatarPositionClass = "";
                         if (index === 0) {
-                            avatarPositionClass = "bottom-[-3rem] left-8"; // Lisa (Bottom left)
+                            avatarPositionClass = "left-1/2 -translate-x-1/2 bottom-[-2.5rem] md:bottom-[-3rem] md:left-8 md:translate-x-0"; // Bottom center mobile, Bottom left desktop
                         } else if (index === 1) {
-                            avatarPositionClass = "top-[-3rem] left-1/2 -translate-x-1/2"; // Daniel (Top center)
+                            avatarPositionClass = "left-1/2 -translate-x-1/2 bottom-[-2.5rem] md:top-[-3rem] md:bottom-auto"; // Bottom center mobile, Top center desktop
                         } else {
-                            avatarPositionClass = "bottom-[-3rem] right-8"; // Anna (Bottom right)
+                            avatarPositionClass = "left-1/2 -translate-x-1/2 bottom-[-2.5rem] md:bottom-[-3rem] md:right-8 md:left-auto md:translate-x-0"; // Bottom center mobile, Bottom right desktop
                         }
 
                         return (
-                            <motion.div key={index} variants={itemVariants} className="relative h-full flex mt-6 md:mt-0">
-                                <div className="bg-slate-50/80 rounded-3xl p-8 lg:p-10 w-full relative h-[300px] flex flex-col justify-start">
+                            <motion.div key={index} variants={itemVariants} className="relative h-full flex mt-8 md:mt-0 mb-12 md:mb-0">
+                                <div className="bg-slate-50/80 rounded-3xl p-8 lg:p-10 w-full relative min-h-[250px] md:h-[300px] flex flex-col justify-start">
                                     <h3 className="text-2xl text-slate-800 tracking-tight font-medium mb-4">
                                         “{review.title}”
                                     </h3>

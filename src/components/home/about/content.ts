@@ -8,12 +8,12 @@ export const aboutContent = {
     points: [
         {
             title: "Patient-Centered Care",
-            description: "We prioritize the well-being and comfort of our patients, offering personalized treatments and a supportive environment to make every visit a positive experience.",
+            description: "We prioritize the well-being supportive environment.",
             icon: ShieldCheck
         },
         {
             title: "Advanced Technology",
-            description: "We are dedicated to providing the highest standard of dental care using advanced techniques and state-of-the-art technology, ensuring optimal results for our patients.",
+            description: "We are dedicated to providing the highest standard of dental care using advanced techniques and state-of-the-art technology.",
             icon: HeartPulse
         }
     ],
