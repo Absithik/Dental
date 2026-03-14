@@ -63,7 +63,7 @@ export function HeroSection() {
                             <p className="text-lg leading-relaxed text-white/90 font-medium">
                                 Our team is committed to delivering top-quality, compassionate treatments in a comfortable environment.
                             </p>
-                            <Button asChild className="w-fit rounded-full bg-white text-primary hover:bg-white/90 px-8 py-6 text-sm font-semibold shadow-xl">
+                            <Button asChild className="w-fit rounded-full bg-white text-black hover:bg-white/90 px-8 py-6 text-sm font-semibold shadow-xl">
                                 <Link href="/appointment">BOOK NOW</Link>
                             </Button>
                         </motion.div>

@@ -87,7 +87,7 @@ export function Navbar() {
                             className={cn(
                                 "rounded-full px-6 font-semibold shadow-none",
                                 isTransparent
-                                    ? "bg-white text-primary hover:bg-white/90"
+                                    ? "bg-white text-black hover:bg-white/90"
                                     : ""
                             )}
                         >
